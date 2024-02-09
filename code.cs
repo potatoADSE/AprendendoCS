@@ -24,54 +24,43 @@ public class MyFirstProgramCS {
         Console.WriteLine ("Digite o segundo numero:");
         int numbertree = int.Parse(Console.ReadLine());
 
-        int resutado;
+        int resutado = 0;
 
         switch (numberone) {
-          case 1: {
+          case 1: 
             resutado = Add(numbertwo, numbertree);
-            Console.WriteLine("Resutado:");
-            Console.WriteLine(resutado);
             break;
-          }
-          case 2: {
+          case 2: 
             resutado = Sub(numbertwo, numbertree);
-            Console.WriteLine("Resutado:");
-            Console.WriteLine(resutado);
             break;
-          }
-          case 3: {
+          case 3: 
             resutado = Mut(numbertwo, numbertree);
-            Console.WriteLine("Resutado:");
-            Console.WriteLine(resutado);
             break;
-          }
-          case 4: {
+          case 4: 
             resutado = Div(numbertwo, numbertree);
-            Console.WriteLine("Resutado:");
-            Console.WriteLine(resutado);
-            break;
-          }
+            break;    
 
-        }
+      }
+
+      Console.WriteLine("Resutado:");
+      Console.WriteLine(resutado);
+
+
     }
 
     public static int Add(int numbertwo, int numbertree) {
-      int result = numbertree + numbertwo;
-      return result;
+      return numbertwo + numbertree;
     }
 
     public static int Sub(int numbertwo, int numbertree) {
-      int result = numbertwo - numbertree;
-      return result;
+      return numbertwo - numbertree;
     }
     public static int Mut(int numbertwo, int numbertree) {
-      int result = numbertwo * numbertree;
-      return result;
+      return numbertwo * numbertree;
     }
 
     public static int Div(int numbertwo, int numbertree) {
-      int result = numbertwo / numbertree;
-      return result;
+      return numbertwo / numbertree;
     }
 
     } 
