@@ -4,3 +4,8 @@ E: em falta
 Calculadora F
 Soma media E
 Jogar dados E
+Calculo de dias que se passaram depois de qualquer data e isso aí E
+Imprimir uma piramide E
+Imprimir uma piramide invertida E
+equência de finonacci E
+fibonacci recursovo E
