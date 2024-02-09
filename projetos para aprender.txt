@@ -2,3 +2,5 @@ F: feito
 E: em falta
 
 Calculadora F
+Soma media E
+Jogar dados E
